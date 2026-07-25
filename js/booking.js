@@ -24,24 +24,33 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="form-group">
             <h3>Contact details</h3>
             <div class="form-row">
-              <div class="form-field"><label>Full name</label><input value="Jane Traveler" required></div>
-              <div class="form-field"><label>Email</label><input type="email" id="email" value="jane@example.com" required></div>
-              <div class="form-field"><label>Phone</label><input value="+1 555 000 1234"></div>
+              <div class="form-field"><label>Full name</label><input required></div>
+              <div class="form-field"><label>Email</label><input type="email" id="email" required></div>
+              <div class="form-field"><label>Phone</label><input></div>
               <div class="form-field"><label>Country</label>
                 <select>
-                  <option>United States</option><option>United Kingdom</option><option>France</option>
-                  <option>Germany</option><option>Japan</option><option>UAE</option><option>India</option>
+                  <option value="" selected disabled>Select Country</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Japan</option>
+                  <option>UAE</option>
+                  <option>India</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="form-group">
             <h3>Payment</h3>
-            <div class="form-field" style="margin-bottom:12px"><label>Card number</label><input value="4242 4242 4242 4242"></div>
+            <div class="form-field" style="margin-bottom:12px">
+              <label>Card number</label>
+              <input>
+            </div>
             <div class="form-row three">
-              <div class="form-field"><label>Cardholder name</label><input value="Jane Traveler"></div>
-              <div class="form-field"><label>Expiry</label><input value="12/28"></div>
-              <div class="form-field"><label>CVC</label><input value="123"></div>
+              <div class="form-field"><label>Cardholder name</label><input></div>
+              <div class="form-field"><label>Expiry</label><input></div>
+              <div class="form-field"><label>CVC</label><input></div>
             </div>
           </div>
           <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Confirm & Pay $${price + tax}</button>
