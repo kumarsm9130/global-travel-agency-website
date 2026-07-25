@@ -1,6 +1,6 @@
-# Golobe Travel Agency Website
+# Global Travel Agency Website
 
-A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs. UI design inspired by the [Golobe Travel Agency Figma community file](https://www.figma.com/community/file/1182308758714734501/golobe-travel-agency-website).
+A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs. UI design inspired by the [Global Travel Agency Figma community file](https://www.figma.com/community/file/1182308758714734501/Global-travel-agency-website).
 
 ## Technologies used in this project
 
@@ -48,7 +48,7 @@ A clean, responsive travel booking website built with **pure HTML, CSS, and Java
 ## Project Structure
 
 ```
-golobe/
+Global/
 ├── index.html          # Home page
 ├── flights.html         # Flight search & results
 ├── hotels.html          # Hotel search & results
