@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Cheap Flights — Global</title>
+  <meta name="description" content="Compare and book flights from 500+ airlines worldwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Find your next flight</h1>
+      <div id="searchform"></div>
+    </div>
+  </section>
+
+  <div class="container results-wrap">
+    <div class="sort-bar">
+      <div class="sort-label">🔽 Sort by</div>
+      <button class="sort-btn active" data-key="cheapest" onclick="sortFlights('cheapest')">
+        Cheapest<span class="sub">from $249</span>
+      </button>
+      <button class="sort-btn" data-key="fastest" onclick="sortFlights('fastest')">
+        Fastest<span class="sub">from 6h 20m</span>
+      </button>
+      <button class="sort-btn" data-key="best" onclick="sortFlights('best')">
+        Best Value
+      </button>
+      <button class="sort-btn" data-key="rating" onclick="sortFlights('rating')">
+        Top Rated
+      </button>
+      <div class="results-count" id="count"></div>
+    </div>
+    <div id="results" class="results-list"></div>
+  </div>
+
+  <div id="footer"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/flights.js"></script>
+</body>
+</html>

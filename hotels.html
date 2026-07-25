@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Beautiful Stays — Global</title>
+  <meta name="description" content="Book hotels & resorts across the world at the best prices.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <section class="page-hero hotels">
+    <div class="container">
+      <h1>Find your perfect stay</h1>
+      <div id="searchform"></div>
+    </div>
+  </section>
+
+  <div class="container results-wrap">
+    <div class="sort-bar">
+      <div class="sort-label">🔽 Sort by</div>
+      <button class="sort-btn active" data-key="cheapest" onclick="sortHotels('cheapest')">
+        Cheapest<span class="sub">from $120</span>
+      </button>
+      <button class="sort-btn" data-key="rating" onclick="sortHotels('rating')">
+        Top Rated
+      </button>
+      <button class="sort-btn" data-key="reviews" onclick="sortHotels('reviews')">
+        Most Reviewed
+      </button>
+      <button class="sort-btn" data-key="best" onclick="sortHotels('best')">
+        Best Value
+      </button>
+      <div class="results-count" id="count"></div>
+    </div>
+    <div id="results" class="hotels-grid"></div>
+  </div>
+
+  <div id="footer"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/hotels.js"></script>
+</body>
+</html>
