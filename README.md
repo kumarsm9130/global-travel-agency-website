@@ -112,3 +112,14 @@ No installation or build step required.
 - Add dark mode toggle
 - Improve accessibility (ARIA labels, keyboard navigation)
 - Add automated tests
+
+
+## Author
+This project is maintained by **Kumar S Marathe**
+
+📧 Connect with me:
+
+GitHub: https://github.com/kumarsm9130
+
+LinkedIn: https://www.linkedin.com/in/kumar-s-marathe-79a163256/
+
