@@ -1,22 +1,35 @@
-# Global Travel Agency Website
+# ✈️ Global Travel Agency Website — Project
 
-A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs.
+A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs. UI design inspired by the [Global Travel Agency Figma community file](https://www.figma.com/community/file/1182308758714734501/Global-travel-agency-website).
 
 **🔗 Live Demo:** https://kumarsm9130.github.io/global-travel-agency-website/
 
+## 📌 Overview
+
+This project demonstrates a complete client-side travel booking flow:
+
+1. **Search** flights and hotels from the home page
+2. **Browse** sortable results (Cheapest, Fastest, Top Rated, Best Value)
+3. **Book** a flight or hotel through a query-param driven booking flow
+4. **Confirm** the booking with a confirmation UI
+
+Built entirely with vanilla JavaScript — no dependencies, no backend, no build step.
+
 ---
 
-## Technologies Used
+## 🖥️ Pages
 
-- **HTML5** — semantic markup across all pages
-- **CSS3** — custom styling, animations, fully responsive layout (`css/style.css`)
-- **Vanilla JavaScript (ES6+)** — no dependencies, no frameworks
-- **Google Fonts** — Playfair Display + DM Sans
-- **Unsplash** — destination and listing imagery
+| Page | Description |
+|---|---|
+| `index.html` | Home page — hero search form, popular destinations, and feature highlights |
+| `flights.html` | Flight search with From/To selectors and sortable results (Cheapest, Fastest, Top Rated, Best Value) |
+| `hotels.html` | Hotel search by destination with the same sortable result options |
+| `booking.html` | Booking flow for both flights and hotels via query params, with confirmation UI |
+| `about.html` | About page — company/site information |
 
 ---
 
-## Features
+## 🚀 What This Project Covers
 
 ### 1. Home Page (`index.html`)
 - Animated hero section with search form
@@ -38,18 +51,10 @@ A clean, responsive travel booking website built with **pure HTML, CSS, and Java
 - Handles both flight and hotel bookings
 - Booking confirmation UI
 
-### 5. About Page (`about.html`)
-- Company/site information page
-
-### 6. Shared UI Components (`js/common.js`)
+### 5. Shared UI Components (`js/common.js`)
 - Reusable animated navbar
 - Shared footer
 - Reusable search form logic used across pages
-
-### 7. UX Details
-- Fully responsive across desktop and mobile
-- Fade-up scroll animations on cards and sections
-- Consistent design system via shared CSS
 
 ---
 
@@ -75,13 +80,22 @@ Global/
 
 ---
 
+## ✨ Features
+
+- Fully responsive across desktop and mobile
+- Fade-up scroll animations on cards and sections
+- Sortable flight/hotel results (Cheapest, Fastest, Top Rated, Best Value)
+- Consistent design system via shared CSS
+- Google Fonts (Playfair Display + DM Sans) and Unsplash destination imagery
+
+---
+
 ## Limitations
 
 - Uses static, hardcoded sample data (`js/data.js`) — no backend or database
 - No real flight/hotel availability, pricing API, or payment integration
 - No user authentication or account management
 - No persistence — bookings are not saved between sessions
-- No server-side rendering; runs entirely client-side
 - Basic form validation only
 
 ---
@@ -90,27 +104,12 @@ Global/
 
 No installation or build step required.
 
-1. **Download or clone the project**
-
 ```bash
 git clone https://github.com/kumarsm9130/global-travel-agency-website.git
 cd global-travel-agency-website
 ```
 
-2. **Open `index.html` directly in your browser**
-
-```bash
-# macOS
-open index.html
-
-# Windows
-start index.html
-
-# Linux
-xdg-open index.html
-```
-
-Or, for a smoother experience with a local server (recommended if you make changes):
+Open `index.html` directly in your browser, or serve it locally:
 
 ```bash
 npx serve .
@@ -122,15 +121,9 @@ Then visit `http://localhost:5500`.
 
 ---
 
-## TODO
+## 🎯 Purpose
 
-- Connect to a real flights/hotels API to replace static sample data
-- Add real booking persistence (localStorage or backend)
-- Add user authentication
-- Add form validation and error states
-- Add dark mode toggle
-- Improve accessibility (ARIA labels, keyboard navigation)
-- Add automated tests
+Created to demonstrate front-end development fundamentals — responsive layout, vanilla JS state/routing via query params, and UI/UX polish — as part of a web development portfolio.
 
 ---
 
