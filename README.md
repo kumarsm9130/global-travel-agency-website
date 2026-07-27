@@ -1,5 +1,7 @@
 # Global Travel Agency Website
 
+A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs.
+
 **🔗 Live Demo:** https://kumarsm9130.github.io/global-travel-agency-website/
 
 ---
