@@ -1,7 +1,5 @@
 # Global Travel Agency Website
 
-A clean, responsive travel booking website built with **pure HTML, CSS, and JavaScript** — no frameworks, no build step. Just open it in a browser and it runs. UI design inspired by the [Global Travel Agency Figma community file](https://www.figma.com/community/file/1182308758714734501/Global-travel-agency-website).
-
 **🔗 Live Demo:** https://kumarsm9130.github.io/global-travel-agency-website/
 
 ---
